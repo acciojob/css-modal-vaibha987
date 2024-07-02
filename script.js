@@ -5,7 +5,3 @@ var closeModalButton = document.querySelector('.close-modal');
 openModalButton.addEventListener('click', function() {
     modal.style.display = 'block';
 });
-
-closeModalButton.addEventListener('click', function() {
-    modal.style.display = 'none';
-});
